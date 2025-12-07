@@ -73,7 +73,7 @@ const NftCollection = () => {
             </button>
 
             {showCategoryDropdown && (
-              <div className="rounded-lg p-5 border-soft absolute top-18 z-50 backdrop-blur-2xl">
+              <div className="rounded-lg p-5 border-soft absolute top-18 z-50 left-[-4em] backdrop-blur-2xl">
                 {categories.map((category) => (
                   <button
                     onClick={() => handleFilter(category)}
