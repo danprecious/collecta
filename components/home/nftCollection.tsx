@@ -46,8 +46,8 @@ const NftCollection = () => {
         <h1 className="lg:text-[2.5rem] text-[2rem] font-semibold ">
           3D Styles
         </h1>
-        <div className="flex items-center gap-4">
-          <div className="rounded-[2em] w-full lg:w-[20rem] px-4 py-3 text-foreground/50 lg:mt-0 mt-5 bg-foreground/5 p-2  flex items-center gap-2">
+        <div className="flex items-center gap-4 mt-4">
+          <div className="rounded-[2em] w-full lg:w-[20rem] px-4 py-3 text-foreground/50 lg:mt-0  bg-foreground/5 p-2  flex items-center gap-2">
             <input
               type="text"
               placeholder="Search nfts by name"
